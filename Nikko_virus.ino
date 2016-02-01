@@ -34,7 +34,7 @@ void setup() {
   pinMode(FORWARD, OUTPUT);
   pinMode(BACKWARD, OUTPUT);
   digitalWrite(GND, LOW);
-  Serial.println("Press 1 to LED ON or 0 to LED OFF...");
+  Serial.println("Initialized");
 }
  
 void loop() {
